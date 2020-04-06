@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val navController = this.findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this, navController) //Link the NavController to our ActionBar.
-        Log.d("TAG","HelloWorld")
+        
 
     }
 
